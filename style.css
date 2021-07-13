@@ -83,6 +83,7 @@ span {
   transition: 0.5s;
   box-shadow: 0 1px 5px #4c1c9b;
   background-color: white;
+  cursor: pointer;
 }
 .home-box:hover {
   background-color: rgb(224, 224, 224);
@@ -168,6 +169,7 @@ span {
   box-shadow: 0 1px 5px #4c1c9b;
   transition: 0.3s;
   border-radius: 5px;
+  cursor: pointer;
 }
 .course-box:hover {
   background-color: rgb(224, 224, 224);
@@ -239,6 +241,8 @@ span {
 }
 .gallery-box img:hover {
   transform: translateY(-16px);
+  opacity: 0.8;
+  cursor: pointer;
 }
 
 footer {
@@ -251,4 +255,5 @@ footer {
   word-spacing: 4px;
   text-align: center;
   padding: 20px 0;
+  font-weight: 300;
 }
