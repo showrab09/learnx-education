@@ -14,7 +14,7 @@ body {
   margin: auto;
 }
 
-/* NAVBAR*/
+/* NAVBAR section*/
 nav {
   width: 100%;
   background-color: #111111;
@@ -23,14 +23,14 @@ nav {
   z-index: 1000;
 }
 
-.menu{
+.menu {
   display: flex;
   justify-content: space-between;
 }
 .left a {
   text-decoration: none;
 }
-.left:hover{
+.left:hover {
   background-color: rgb(46, 43, 43);
   border-radius: 8px;
 }
@@ -317,6 +317,7 @@ footer {
   .cont {
     margin: 20px;
   }
+
   .cont h1 {
     margin-top: 50px;
     font-size: 30px;
